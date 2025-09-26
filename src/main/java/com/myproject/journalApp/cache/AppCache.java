@@ -22,8 +22,9 @@ public class AppCache {
 
 //we store api key in appCache it will work as in memory catch
     public Map<String, String> appCache;
-
+//postconstruct will load again when we restert again project
     @PostConstruct
+
     public void init(){
         appCache=new HashMap<>();
         List<ConfigJournalAppEntity> all=configJournalAppRepository.findAll();
@@ -33,5 +34,7 @@ public class AppCache {
         }
 
     }
+
+
 
 }

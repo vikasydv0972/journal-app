@@ -1,6 +1,7 @@
 package com.myproject.journalApp.entity;
 
 import com.mongodb.lang.NonNull;
+import com.myproject.journalApp.enums.Sentiment;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.bson.types.ObjectId;
@@ -26,6 +27,8 @@ public class JournalEntry {
     private String content;
 
     private LocalDateTime date;
+
+    private Sentiment sentiment;
 
 //By adding lombok dependency we can use getter and setter Annotation So We dont need methods. we have to add on class
 
