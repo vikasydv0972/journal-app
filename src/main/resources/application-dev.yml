@@ -1,0 +1,33 @@
+spring:
+
+  redis:
+    host: localhost
+    port: 6379
+
+
+  data:
+    mongodb:
+      uri: mongodb+srv://vikasyadav0971_db_user:sgXyLCJBS7HEofbn@cluster0.gszjgdw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: putin.ussr1@gmail.com
+    password: pxnv lfoq euwp elnt
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
+
+weather:
+  api:
+    key: 06c54ee7c314f744aa1a2ee465aa77cb
