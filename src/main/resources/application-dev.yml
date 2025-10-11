@@ -7,15 +7,15 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb+srv://vikasyadav0971_db_user:sgXyLCJBS7HEofbn@cluster0.gszjgdw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      uri: 
       database: journaldb
       auto-index-creation: true
 
   mail:
     host: smtp.gmail.com
     port: 587
-    username: putin.ussr1@gmail.com
-    password: pxnv lfoq euwp elnt
+    username: 
+    password: 
     properties:
       mail:
         smtp:
@@ -30,4 +30,4 @@ server:
 
 weather:
   api:
-    key: 06c54ee7c314f744aa1a2ee465aa77cb
+    key: 
