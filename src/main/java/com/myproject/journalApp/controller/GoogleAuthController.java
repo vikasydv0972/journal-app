@@ -25,7 +25,7 @@ import java.util.UUID;
 
 @Slf4j
 @RestController
-@RequestMapping("/auth/google")
+@RequestMapping("/google")
 public class GoogleAuthController {
 
     @Value("${spring.security.oauth2.client.registration.google.client-id}")
@@ -93,4 +93,3 @@ public class GoogleAuthController {
 
     }
 }
-

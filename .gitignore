@@ -13,6 +13,13 @@ target/
 .settings
 .springBeans
 .sts4-cache
+# Ignore log files
+logs/
+*.log
+*.out
+*.tmp
+
+.env
 
 ### IntelliJ IDEA ###
 .idea
